@@ -1,9 +1,4 @@
     /* CSS Reset */
-    
-        body{
-            background-color: #a2d5ee54;
-        }
-    
     * {
         margin: 0;
         padding: 0;
@@ -35,15 +30,11 @@
         opacity: 0.4;
     } */
 
-    
-
-
-    
     #navbar {
         display: flex;
         align-items: center;
-        position: absolute;
-        background-color: rgb(169, 168, 168) transparent;
+        position: sticky;
+        background-color: grey transparent;
 
 
     }
@@ -70,7 +61,8 @@
         color: black;
         background-color: white;
         border-radius: 20px;
-       
+
+
     }
 
     /* Home section */
@@ -249,16 +241,6 @@
     .h-primary {
         font-size: 3rem;
         padding: 12px;
-        
-    }
-    .btn:hover{
-        
-        transition: all 0.4s ease-in-out 0ms;
-        border-radius: 18px;
-        border-color: aqua;
-        /* color: rgb(253, 6, 6); */
-        font-size: 16.2px;
-        
     }
 
     .h-secondary {
