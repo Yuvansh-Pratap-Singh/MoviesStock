@@ -89,7 +89,7 @@ body{
 #clients-section::before {
     content: "";
     
-    height: 42%;
+    height: 35%;
    
 }
 
@@ -117,6 +117,16 @@ body{
 
 
 /* contact-us */
+#contact-us::before {
+    content: "";
+    width: 100%;
+    height: 36%;
+    
+}
+
+
+
+
 
 #contact-box input, #contact-box textarea {
     width: 100%;
@@ -137,7 +147,22 @@ body{
 
 
     .h-primary {
-        font-size: 32px;
+        font-size: 1.6rem;
         padding: 15px;
-        height: 120px;
+        height: 65px;
     }
+
+
+   
+
+
+
+    #services {
+        
+        padding: 0px 8rem 0px 8rem;}
+
+
+
+        #services .box1, .box2, .box3 {
+           
+            padding: 40px;}
