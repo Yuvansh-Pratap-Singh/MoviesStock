@@ -1,6 +1,6 @@
 /* navigation */
 body{
-    background-color: #a2d5ee54;
+    background-color: antiquewhite;
 }
 
 #navbar {
@@ -89,7 +89,7 @@ body{
 #clients-section::before {
     content: "";
     
-    height: 39%;
+    height: 35%;
    
 }
 
@@ -120,7 +120,7 @@ body{
 #contact-us::before {
     content: "";
     width: 100%;
-    height: 56%;
+    height: 36%;
     
 }
 
@@ -147,7 +147,7 @@ body{
 
 
     .h-primary {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         padding: 15px;
         height: 65px;
     }
