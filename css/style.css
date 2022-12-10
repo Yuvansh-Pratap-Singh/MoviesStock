@@ -1,9 +1,9 @@
     /* CSS Reset */
-    
-        body{
-            background-color: #a2d5ee54;
-        }
-    
+
+    body {
+        background-color: #a2d5ee54;
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -20,32 +20,13 @@
         margin: 2px 5px;
         padding: 0px 5px;
         width: 60px;
-
     }
 
-    /* body::before {
-        content: "";
-        background-image: url("");
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0px;
-        left: 0px;
-        z-index: -1;
-        opacity: 0.4;
-    } */
-
-    
-
-
-    
     #navbar {
         display: flex;
         align-items: center;
         position: absolute;
         background-color: rgb(169, 168, 168) transparent;
-
-
     }
 
     #navbar ul {
@@ -70,42 +51,69 @@
         color: black;
         background-color: white;
         border-radius: 20px;
-       
     }
 
     /* Home section */
 
-    #home {
+    #home,
+    #home-1,
+    #home-2 {
         display: flex;
         flex-direction: column;
         padding: 3px 200px;
         justify-content: center;
         align-items: center;
         height: 640px;
-
     }
 
     #home::before {
         content: "";
-        background: url(../img/bg.jpeg)no-repeat center center/cover;
+        background: url(../img/s2.jpg)no-repeat center center/cover;
         position: absolute;
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 82%;
+        height: 80%;
         z-index: -1;
         opacity: 0.89;
-
     }
 
-    #home h1 {
+    #home-1::before {
+        content: "";
+        background: url(../img/m2.jpg)no-repeat center center/cover;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 80%;
+        z-index: -1;
+        opacity: 0.9;
+    }
 
-        color: rgb(100, 205, 205);
+    #home-2::before {
+        content: "";
+        background: url(../img/music.jpg)no-repeat center center/cover;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 80%;
+        z-index: -1;
+        opacity: 0.89;
+    }
+
+    #home h1,
+    #home-1 h1,
+    #home-2 h1 {
+
+        color: rgb(255, 255, 255);
         text-align: center;
         font-family: 'Cormorant SC', serif;
     }
 
-    #home p {
+    #home p,
+    #home-1 p,
+    #home-2 p {
 
         color: rgb(224, 247, 143);
         text-align: center;
@@ -113,18 +121,36 @@
         font-family: 'Baloo Bhai 2', cursive;
     }
 
-
     /* services section */
-    #services {
+    #services-1 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin: 40px;
-
-
     }
 
-    #services .box1,
+    #services-2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 40px;
+    }
+
+    #services-3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 40px;
+    }
+
+    #services-4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 40px;
+    }
+
+    #services-1 .box1,
     .box2,
     .box3 {
         border: 2px solid black;
@@ -132,26 +158,43 @@
         margin: 10px 30px;
         background-color: aliceblue;
         padding: 20px;
-
     }
 
-    /* .box1 iframe,.box2 iframe, .box3 iframe{
-        display: block;
-        margin: auto;
+    #services-2 .box1,
+    .box2,
+    .box3 {
+        border: 2px solid black;
+        border-radius: 23px;
+        margin: 10px 30px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
 
-    } */
+    #services-3 .box1,
+    .box2,
+    .box3 {
+        border: 2px solid black;
+        border-radius: 23px;
+        margin: 10px 30px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
 
+    #services-4 .box1,
+    .box2,
+    .box3 {
+        border: 2px solid black;
+        border-radius: 23px;
+        margin: 10px 30px;
+        background-color: aliceblue;
+        padding: 20px;
+    }
 
     .center,
     iframe {
         text-align: center;
         font-family: 'Baloo Bhai 2', cursive;
     }
-
-
-    /* #clients-item {
-        padding: 34px;
-    } */
 
     #clients-section::before {
         content: "";
@@ -163,13 +206,10 @@
         opacity: 0.3;
     }
 
-    /* border: 2px solid red; */
     #clients {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: 2px solid red; */
-
     }
 
     #clients-section {
@@ -182,35 +222,31 @@
         height: 80px;
         width: 150px;
         padding: 0px 100px 0px 50px;
-        /* border: 2px solid greenyellow; */
     }
 
     .clients-item2 img {
         height: 30px;
         width: 220px;
         padding: 0px 100px 0px 50px;
-        /* border: 2px solid greenyellow; */
     }
 
     .clients-item3 img {
         height: 40px;
         width: 150px;
         padding: 0px 100px 0px 50px;
-        /* border: 2px solid greenyellow; */
     }
 
     #contact-us::before {
         content: "";
         position: absolute;
         width: 100%;
-        height: 75%;
+        height: 80%;
         background: url(../img/contact1.jpg) center center/cover;
         z-index: -1;
         opacity: 0.4;
-
     }
-    
-    #contact-box{
+
+    #contact-box {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -218,23 +254,21 @@
     }
 
     #contact-box input,
-    #contact-box textarea
-    {
+    #contact-box textarea {
         width: 100%;
-        padding:0.5rem;   
-        border-radius: 10px;  
+        padding: 0.5rem;
+        border-radius: 10px;
         font-family: 'Baloo Bhai 2', cursive;
         font-size: 1rem;
     }
-    
-    #contact-box form{
+
+    #contact-box form {
         width: 25%;
-        
     }
-    #contact-box label{
+
+    #contact-box label {
         font-size: large;
         font-family: 'Baloo Bhai 2', cursive;
-
     }
 
     footer {
@@ -243,22 +277,17 @@
         padding: 2px 20px;
     }
 
-
     /* Utility Classes */
-
     .h-primary {
         font-size: 3rem;
         padding: 12px;
-        
     }
-    .btn:hover{
-        
+
+    .btn:hover {
         transition: all 0.4s ease-in-out 0ms;
         border-radius: 18px;
         border-color: aqua;
-        /* color: rgb(253, 6, 6); */
         font-size: 16.2px;
-        
     }
 
     .h-secondary {
@@ -282,5 +311,4 @@
         background-color: #6c5252;
         cursor: pointer;
         font-size: 1rem;
-
     }
